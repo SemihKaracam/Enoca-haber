@@ -12,12 +12,9 @@ function Header() {
     <header>
       <NavLink to="/"><h1 className='header-title'>SEMİH EMİR KARAÇAM</h1></NavLink>
       <Searchbar/>
-      {
-        toggle ?
-        <div onClick={handleToggle} className='menu-icon'>
-          <img src={menu} alt="" />
-        </div> : <div onClick={handleToggle} className='close-icon'>X</div>
-      }
+      <div onClick={handleToggle} className='menu-icon'>
+        <img src={menu} alt="" />
+      </div> 
     </header>
   )
 }
