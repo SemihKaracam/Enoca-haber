@@ -46,9 +46,6 @@ header{
         padding-top: 16px;
         padding-bottom: 16px;
     }
-    .close-icon{
-        display: block;
-        z-index: 9999;
-    }
+
     
 }
