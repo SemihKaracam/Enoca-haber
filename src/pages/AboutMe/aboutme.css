@@ -1,0 +1,108 @@
+.aboutme{
+    padding-top:100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.personal-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.profil-picture{
+    flex: 1;
+}
+
+.profil-picture img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.personal-info{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.my-name{
+    text-align: center;
+    font-size: 40px;
+}
+
+.my-job{
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+.personal-description{
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.aboutme-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutme-icons i {
+    font-size: 30px;
+}
+
+
+/*SWIPER*/
+.project-slider h3{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.aboutme-swiper {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.aboutme-swiper .swiper-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutme-swiper.swiper-img:hover + .github-link{
+    display: inline-block;
+}
+
+
+.github-link{
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(-50%,-50%);
+}
+
+.swiper-img a i{
+    font-size: 40px;
+}
+
+
+
+
+@media (max-width:1024px){
+    .profil-picture{
+        flex: unset;
+        align-self: center;
+    }
+    .personal-container{
+        flex-direction: column;
+    }
+}

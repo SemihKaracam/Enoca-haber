@@ -1,0 +1,17 @@
+.search{
+    padding-top: 50px;
+}
+.search h3{
+    padding-bottom: 20px;
+}
+
+.search h3 span{
+    font-weight: 500;
+}
+.total-result{
+    font-weight: 400;
+}
+
+.searched-term{
+    font-weight: 400 ;
+}
