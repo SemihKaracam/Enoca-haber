@@ -4,7 +4,6 @@ import "./header.css"
 import { NavLink } from "react-router-dom";
 import menu from "../../assets/menu.png"
 function Header() {
-  const [toggle,setToggle] = useState(false)
   const handleToggle = (e)=>{
     e.target.style.display = "none"
   }
